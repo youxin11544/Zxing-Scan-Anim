@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#bab30b</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+
+
+    <color name="colorAccent">#4Dbab30b</color>
+
+    <color name="bg_black">#000000</color>
+    <color name="bg_black_10">#E6000000</color>
+    <color name="bg_black_30">#B3000000</color>
+    <color name="bg_black_50">#80000000</color>
+    <color name="bg_black_60">#66000000</color>
+    <color name="bg_black_70">#4D000000</color>
+    <color name="bg_black_80">#33000000</color>
+    <color name="bg_black_100">#00000000</color>
+
+</resources>

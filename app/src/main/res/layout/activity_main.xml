@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_launcher">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_black_60" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.asdf.myapplication.scaning.CalibrationView
+                android:layout_width="200dp"
+                android:layout_height="200dp" />
+
+            <com.asdf.myapplication.scaning.GradientCircleView
+                android:layout_width="200dp"
+                android:layout_height="200dp"/>
+
+            <com.asdf.myapplication.scaning.InnerCircleView
+                android:layout_width="200dp"
+                android:layout_height="200dp" />
+
+            <com.asdf.myapplication.scaning.OutCircleView
+                android:layout_width="200dp"
+                android:layout_height="200dp" />
+
+            <com.asdf.myapplication.scaning.ScanView
+                android:id="@+id/scanview"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:visibility="visible"
+                app:CalibrationView_radius_size="51dp"
+                app:GradientCircleView_center_circle_radius_size="58.5dp"
+                app:InnerCircleView_radius_size="50dp"
+                app:OutCircleView_radius_size="65dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/start"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="开始扫描动画"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/scaning"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="匹配中动画" />
+
+                <Button
+                    android:id="@+id/end"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="结束动画" />
+
+                <Button
+                    android:id="@+id/stop"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="停止动画" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

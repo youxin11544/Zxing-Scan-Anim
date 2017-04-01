@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="scanview">
+        <attr name="GradientCircleView_width" format="dimension" />
+        <attr name="GradientCircleView_hight" format="dimension" />
+        <attr name="CalibrationView_width" format="dimension" />
+        <attr name="CalibrationView_hight" format="dimension" />
+        <attr name="OutCircleView_width" format="dimension" />
+        <attr name="OutCircleView_hight" format="dimension" />
+        <attr name="InnerCircleView_width" format="dimension" />
+        <attr name="InnerCircleView_hight" format="dimension" />
+
+        <attr name="GradientCircleView_center_circle_radius_size" format="dimension" />
+        <attr name="CalibrationView_radius_size" format="dimension" />
+        <attr name="OutCircleView_radius_size" format="dimension" />
+        <attr name="InnerCircleView_radius_size" format="dimension" />
+    </declare-styleable>
+
+</resources>
