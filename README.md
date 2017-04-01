@@ -1,4 +1,5 @@
 # 二维码扫描用 扫描动画 
+ 还是一句话思路很重要，对自定义view,以及动画有个一定认识，不要的可以提出来共同进步
 # xml布局的配置
 ![image](https://raw.githubusercontent.com/youxin11544/Zxing-Scan-Anim/master/1.png)
 # 各种属性，不够的自己添加
